@@ -57,7 +57,7 @@
     
                         <v-spacer></v-spacer>
     
-                        <v-btn @click="goDetails(shoes[index])" outline color="teal" small>
+                        <v-btn @click="goDetails(shoeIds[index])" outline color="teal" small>
     
                             Ürün Detayı
     
