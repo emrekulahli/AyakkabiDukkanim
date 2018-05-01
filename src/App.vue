@@ -192,9 +192,7 @@
       firebase.auth().onAuthStateChanged(user => {
         if (user) {
           this.isAdmin = true;
-          console.log(this.isAdmin);
         } else {
-          console.log("user yoq");
           this.isAdmin = false;
         }
       });
